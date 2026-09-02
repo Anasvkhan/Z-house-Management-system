@@ -9,7 +9,7 @@ import {
   CreditCard, 
   Bot, 
   Zap, 
-  CloudSync,
+  Cloud,
   Layers,
   ChevronRight
 } from 'lucide-react';
@@ -96,7 +96,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
     {
       id: 'zoho' as TabId,
       label: 'Zoho Integration',
-      icon: CloudSync,
+      icon: Cloud,
       description: 'Bi-directional CRM & Books sync',
       badge: null
     },

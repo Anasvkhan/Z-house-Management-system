@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import { ZohoSyncItem } from '@/lib/types';
 import { 
-  CloudSync, 
+  Cloud, 
   RefreshCw, 
   CheckCircle2, 
   ArrowLeftRight, 
@@ -48,7 +48,7 @@ export const ZohoSyncPortal: React.FC<ZohoSyncPortalProps> = ({
       <div className="bg-white border border-slate-200 p-6 rounded-2xl shadow-sm flex flex-col md:flex-row md:items-center justify-between gap-4">
         <div>
           <div className="flex items-center gap-2 text-xs font-semibold text-emerald-700 uppercase tracking-wider mb-1">
-            <CloudSync className="w-4 h-4 text-emerald-600" />
+            <Cloud className="w-4 h-4 text-emerald-600" />
             <span>Zoho Ecosystem Integration</span>
           </div>
           <h2 className="text-xl font-bold text-slate-900">Bi-Directional Zoho Integration & Mapping</h2>
